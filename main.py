@@ -1315,4 +1315,4 @@ async def back_to_start_callback(client, callback_query: CallbackQuery):
     )
 
 print("Bot Started...")
-bot.run()
+app.run(host="0.0.0.0", port=port)
